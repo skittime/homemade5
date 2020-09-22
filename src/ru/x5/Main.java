@@ -14,7 +14,7 @@ public class Main {
             String message;
             Calculator calculator = new Calculator();
             message = String.valueOf(calculator.getResult());
-            System.out.println(" ");
+            nextLine();
             LogFactory factory, factory1, factory2;
             factory = new ConsoleFactory();
             factory1 = new DbFactory();
